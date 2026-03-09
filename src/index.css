@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased bg-beige-100 text-dark-text;
+    background-color: #F5F0E8;
+  }
+}
+
+.glass-bg {
+  @apply bg-white/80 backdrop-blur-md;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-beige-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-beige-300 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-dark-muted;
+}
