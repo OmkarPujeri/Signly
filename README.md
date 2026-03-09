@@ -39,7 +39,7 @@ Signly is a modern, interactive web application designed to make learning Americ
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/signly.git
+git clone https://github.com/OmkarPujeri/signly.git
 cd signly
 
 # Install dependencies
@@ -132,13 +132,3 @@ signly/
 - **Background:** High-contrast backgrounds (your hand vs. the wall) improve accuracy.
 - **Positioning:** Keep your hand centered and fully visible within the camera frame.
 - **Orientation:** Optimized for standard frontal view.
-
----
-
-## 🗺️ Roadmap
-
-- [ ] **Dynamic Gestures** — Support for signs involving motion (e.g., J and Z).
-- [ ] **Mobile Optimization** — Improved UI/UX for hand-held learning.
-- [ ] **Multi-hand Support** — Advanced signs requiring both hands.
-- [ ] **Dark Mode** — Toggle for late-night practice sessions.
-- [ ] **Cloud Sync** — Save your quiz progress and daily streaks.
